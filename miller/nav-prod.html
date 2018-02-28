@@ -165,17 +165,23 @@
   crossorigin="anonymous"></script>
 <script type="text/javascript">
 $(function() {
-    if (location.pathname.endsWith('/miller') || location.pathname.endsWith('/miller/')) {
-        var selector = 'div.dropdown_menu > div.dropdown > button.dropbtn > a[href="/miller"]';
-    } else if (location.pathname.match(/\/201\d-scholars/)) {
-        var selector = 'div.dropdown_menu > div.dropdown > button.dropbtn > a#dropdown-special';
-    } else {
-        var path = location.pathname.split("/miller/")[1]
-        var selector = 'div.dropdown_menu > div.dropdown > button.dropbtn > a[href="/miller/' + path + '"]';
-    }
-    console.log(location.pathname);
-    console.log(selector);
-    $(selector).attr('id', 'active');
+  if (
+    location.pathname.endsWith("/miller") ||
+    location.pathname.endsWith("/miller/")
+  ) {
+    var selector =
+      'div.dropdown_menu > div.dropdown > button.dropbtn > a[href="/miller"]';
+  } else if (location.pathname.match(/\/201\d-scholars/)) {
+    var selector =
+      "div.dropdown_menu > div.dropdown > button.dropbtn > a#dropdown-special";
+  } else {
+    var path = location.pathname.split("/miller/")[1];
+    var selector =
+      'div.dropdown_menu > div.dropdown > button.dropbtn > a[href="/miller/' +
+      path +
+      '"]';
+  }
+  $(selector).attr("id", "active");
 });
 </script>
 
