@@ -1,0 +1,16 @@
+.independent {
+    display: block;
+    width: 329px;
+    height: 113px;
+    text-decoration: none;
+    background: url("http://static.squarespace.com/static/513520a0e4b055d8b61770b7/t/5163a8b5e4b07ef0fe17440f/1365485749558/scholars_sprite.jpg");
+}
+
+.independent:hover {
+    bacground-position: -329px 0;
+}
+
+.displace {
+    position: absolute;
+    top: -5000px;
+}
