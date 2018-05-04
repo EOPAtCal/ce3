@@ -1,0 +1,10 @@
+.sqs-block-button .sqs-block-button-element--small,
+.sqs-block-button .sqs-block-button-element--medium,
+.sqs-block-button .sqs-block-button-element--large {
+  background-color: #0059af;
+  border-color: #0059af;
+}
+
+.form-wrapper input[type="submit"] {
+  background-color: #0059af;
+}
