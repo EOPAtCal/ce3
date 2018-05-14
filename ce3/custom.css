@@ -15,7 +15,11 @@
     top: -5000px;
 } */
 
-#logo,
-#topNav {
+#logo {
     display: none
+}
+
+#folderNav ul,
+#categoryNav ul {
+    padding: 10px
 }
