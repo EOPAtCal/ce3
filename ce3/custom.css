@@ -1,4 +1,4 @@
-.independent {
+/* .independent {
     display: block;
     width: 329px;
     height: 113px;
@@ -7,10 +7,15 @@
 }
 
 .independent:hover {
-    background-position -329px 0;
+    background-position: -329px 0;
 }
 
 .displace {
     position: absolute;
     top: -5000px;
+} */
+
+#logo,
+#topNav {
+    display: none
 }
